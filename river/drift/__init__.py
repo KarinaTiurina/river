@@ -17,6 +17,8 @@ from .no_drift import NoDrift
 from .page_hinkley import PageHinkley
 from .retrain import DriftRetrainingClassifier
 
+from .mlabel import MLABEL
+
 __all__ = [
     "binary",
     "datasets",
@@ -27,4 +29,5 @@ __all__ = [
     "NoDrift",
     "PageHinkley",
     "PeriodicTrigger",
+    "MLABEL",
 ]
